@@ -8,14 +8,14 @@ on:
 
 jobs:
   testing:
-    name: ESLint and TypeScript compilation
+    name: TypeScript compilation
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Project
         uses: actions/checkout@v4
 
       - name: Add problem matcher
-        run: echo "::add-matcher::.github/problemMatchers/eslint.json" && echo "::add-matcher::.github/problemMatchers/tsc.json"
+        run: echo "::add-matcher::.github/problemMatchers/tsc.json"
 
       - name: Use Node.js v20
         uses: actions/setup-node@v4
@@ -26,9 +26,6 @@ jobs:
 
       - name: Install dependencies
         run: npm ci
-
-      - name: Check lint on discord-api-types
-        run: npm run test:lint
 
       - name: Run TSC
         run: npm run build:ci

@@ -1,5 +1,5 @@
 import type { APIApplication, APIApplicationRoleConnectionMetadata } from '../../payloads/v10/application';
-import type { Nullable, StrictPartial } from '../../utils/internals';
+import type { Nullable, StrictPartial } from '../../utils/index';
 
 /**
  * https://discord.com/developers/docs/resources/application-role-connection-metadata#get-application-role-connection-metadata-records

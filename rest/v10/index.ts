@@ -968,6 +968,25 @@ export const Routes = {
 	consumeEntitlement(applicationId: Snowflake, entitlementId: Snowflake) {
 		return `/applications/${applicationId}/entitlements/${entitlementId}/consume` as const;
 	},
+
+	/**
+	 * Route for:
+	 * - GET `/applications/${application.id}/emojis`
+	 * - POST `/applications/${application.id}/emojis`
+	 */
+	applicationEmojis(applicationId: Snowflake) {
+		return `/applications/${applicationId}/emojis` as const;
+	},
+	
+	/**
+	 * Route for:
+	 * GET `/applications/${application.id}/emojis/${emoji.id}`
+	 * - PATCH `/applications/${application.id}/emojis/${emoji.id}`
+	 * - DELETE `/applications/${application.id}/emojis/${emoji.id}`
+	 */
+	applicationEmoji(applicationId: Snowflake, emojiId: Snowflake) {
+		return `/applications/${applicationId}/emojis/${emojiId}` as const;
+	}
 };
 
 export const StickerPackApplicationId = '710982414301790216';

@@ -34,7 +34,7 @@ import type {
 	Nullable,
 	StrictPartial,
 	StrictRequired,
-} from '../../utils/index';
+} from '../../utils';
 import type { RESTPutAPIChannelPermissionJSONBody } from './channel';
 
 export interface APIGuildCreateOverwrite extends RESTPutAPIChannelPermissionJSONBody {

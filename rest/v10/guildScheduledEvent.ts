@@ -1,5 +1,5 @@
 import type { Snowflake } from '../../globals';
-import type { StrictPartial } from '../../utils/index';
+import type { StrictPartial } from '../../utils';
 import type {
 	APIGuildScheduledEvent,
 	APIGuildScheduledEventEntityMetadata,

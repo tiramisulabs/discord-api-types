@@ -10,7 +10,7 @@ import type {
 	AddUndefinedToPossiblyUndefinedPropertiesOfInterface,
 	NonNullableFields,
 	StrictPartial,
-} from '../../utils/index';
+} from '../../utils';
 import type {
 	RESTDeleteAPIWebhookWithTokenMessageResult,
 	RESTGetAPIWebhookWithTokenMessageResult,

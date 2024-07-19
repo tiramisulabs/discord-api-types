@@ -37,7 +37,7 @@ import type {
 	ChannelType,
 } from '../payloads/v10/index';
 import type { ReactionType } from '../rest/v10/index';
-import type { Nullable } from '../utils/index';
+import type { Nullable } from '../utils';
 
 export * from './common';
 

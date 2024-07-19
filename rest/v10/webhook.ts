@@ -8,7 +8,7 @@ import type {
 	MessageFlags,
 	APIMessageActionRowComponent,
 } from '../../payloads/v10/index';
-import type { AddUndefinedToPossiblyUndefinedPropertiesOfInterface, Nullable } from '../../utils/index';
+import type { AddUndefinedToPossiblyUndefinedPropertiesOfInterface, Nullable } from '../../utils';
 import type { RESTAPIAttachment } from './channel';
 import type { RESTAPIPollCreate } from './poll';
 /**

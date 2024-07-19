@@ -25,7 +25,7 @@ import type {
 	ForumLayoutType,
 	ChannelFlags,
 } from '../../payloads/v10/index';
-import type { AddUndefinedToPossiblyUndefinedPropertiesOfInterface, StrictPartial } from '../../utils/index';
+import type { AddUndefinedToPossiblyUndefinedPropertiesOfInterface, StrictPartial } from '../../utils';
 import type { RESTAPIPollCreate } from './poll';
 
 export interface APIChannelPatchOverwrite extends RESTPutAPIChannelPermissionJSONBody {

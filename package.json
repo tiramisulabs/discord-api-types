@@ -45,7 +45,7 @@
 		"esm:payloads": "gen-esm-wrapper ./payloads/index.js ./payloads/index.mjs",
 		"esm:rest": "gen-esm-wrapper ./rest/index.js ./rest/index.mjs",
 		"esm:utils": "gen-esm-wrapper ./utils/index.js ./utils/index.mjs",
-		"prepare": "tsc && (is-ci || husky)",
+		"prepare": "npm run build:node && (is-ci || husky)",
 		"pretest:types": "tsc",
 		"test:types": "tsd -t ./v10.d.ts",
 		"posttest:types": "npm run clean:node"

@@ -1,5 +1,5 @@
 import type { APIGuild, APITemplate } from '../../payloads/v10/index';
-import type { StrictPartial } from '../../utils/index';
+import type { StrictPartial } from '../../utils';
 
 /**
  * https://discord.com/developers/docs/resources/guild-template#get-guild-template

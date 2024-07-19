@@ -1,5 +1,5 @@
 import type { APIApplication, APIApplicationRoleConnectionMetadata } from '../../payloads/v10/application';
-import type { Nullable, StrictPartial } from '../../utils/index';
+import type { Nullable, StrictPartial } from '../../utils';
 import type { APIEmoji } from '../../payloads/v10/emoji';
 import { RESTPatchAPIGuildEmojiJSONBody, RESTPostAPIGuildEmojiJSONBody } from './emoji';
 

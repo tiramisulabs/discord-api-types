@@ -980,7 +980,7 @@ export const Routes = {
 	
 	/**
 	 * Route for:
-	 * GET `/applications/${application.id}/emojis/${emoji.id}`
+	 * - GET `/applications/${application.id}/emojis/${emoji.id}`
 	 * - PATCH `/applications/${application.id}/emojis/${emoji.id}`
 	 * - DELETE `/applications/${application.id}/emojis/${emoji.id}`
 	 */
